@@ -11,6 +11,17 @@ func main() {
 
 	fmt.Println("Another line")
 
+	// Flow control: iterative
+	for i := 0; i < 100; i++ {
+
+		// Flow control: conditional
+		if i%2 == 0 {
+
+			fmt.Println("i is", i, "and is an even number")
+
+		}
+	}
+
 }
 
 func foo() {
