@@ -22,11 +22,19 @@ func main() {
 		}
 	}
 
+	bar()
+
 }
 
 func foo() {
 
 	fmt.Println("I'm in foo, hu3hu3")
+
+}
+
+func bar() {
+
+	fmt.Println("...and then we exited")
 
 }
 
